@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.HospitalManagementSystem" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.HospitalManagementSystem" parent="Base.Theme.HospitalManagementSystem" />
+    <style name="SpinnerTextStyle" parent="Widget.AppCompat.TextView.SpinnerItem">
+        <item name="android:textColor">#FF0000</item> <!-- Set your desired text color -->
+    </style>
+</resources>

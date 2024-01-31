@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_1"
+    android:orientation="vertical"
+    android:textAlignment="center">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:gravity="center_vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:textAlignment="center"
+            android:layout_gravity="center_horizontal">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/img_d_register" />
+
+            <EditText
+                android:id="@+id/editTextDName"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:ems="10"
+                android:hint="name"
+                android:inputType="text"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+
+            <EditText
+                android:id="@+id/editTextDAge"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:ems="10"
+                android:hint="age"
+                android:inputType="text"
+                android:textAlignment="center" />
+
+            <RadioGroup
+                android:id="@+id/radioGroupGender"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/maleRadio"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Male"
+                    android:textColor="#FFFFFF" />
+
+                <RadioButton
+                    android:id="@+id/femaleRadio"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Female"
+                    android:textColor="#FFFFFF" />
+
+            </RadioGroup>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/editTextDSpe"
+                    android:layout_width="150dp"
+                    android:layout_height="60dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Specialization"
+                    android:inputType="text" />
+
+                <EditText
+                    android:id="@+id/editTextDExp"
+                    android:layout_width="150dp"
+                    android:layout_height="60dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Experience"
+                    android:inputType="text" />
+            </LinearLayout>
+
+
+            <EditText
+                android:id="@+id/editTextDEmail"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:ems="10"
+                android:hint="email"
+                android:inputType="text"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/editTextDMobileNo"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:ems="10"
+                android:hint="mobile"
+                android:inputType="number"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/editTextDLanguage"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:ems="10"
+                android:hint="language spoken"
+                android:inputType="text"
+                android:textAlignment="center" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="20dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Schedual"
+                    android:textAlignment="center"
+                    android:textSize="20sp" />
+
+                <ImageButton
+                    android:id="@+id/button6"
+                    android:layout_width="50dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/add_btn"
+                    android:scaleType="fitCenter" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/editTextDay"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="day"
+                    android:inputType="text"
+                    android:textAlignment="center" />
+
+                <EditText
+                    android:id="@+id/editTextStart"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="start time"
+                    android:inputType="text"
+                    android:textAlignment="center" />
+
+                <EditText
+                    android:id="@+id/editTextEnd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="end time"
+                    android:inputType="text"
+                    android:textAlignment="center" />
+
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/editTextDSchedule"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="schedule"
+                android:inputType="text"
+                android:textAlignment="center" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="131dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Password"
+                    android:textAlignment="center"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/editTextDPassword"
+                    android:layout_width="150dp"
+                    android:layout_height="60dp"
+                    android:ems="10"
+                    android:inputType="textPassword"
+                    android:textColor="#FFFFFF" />
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/button4"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/submit_btn"
+                android:scaleType="fitCenter" />
+
+            <TextView
+                android:id="@+id/textViewId"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="TextView"
+                android:textAlignment="center"
+                android:textColor="#FF0000"
+                android:textSize="16sp"
+                android:visibility="invisible" />
+
+
+            <ImageButton
+                android:id="@+id/button5"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/back_btn"
+                android:scaleType="fitCenter" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

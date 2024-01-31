@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/editTextPrescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Prescription"
+        android:inputType="textMultiLine"
+        android:gravity="start|top"
+        android:maxLines="5" />
+
+    <EditText
+        android:id="@+id/editTextDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Description"
+        android:inputType="textMultiLine"
+        android:gravity="start|top"
+        android:maxLines="5" />
+
+    <EditText
+        android:id="@+id/editTextAdvice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Advice"
+        android:inputType="textMultiLine"
+        android:gravity="start|top"
+        android:maxLines="5" />
+
+</LinearLayout>

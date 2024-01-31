@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">DocLink</string>
+    <string-array name="choices">
+        <item>Choose career</item>
+        <item>Choice 2</item>
+        <item>Choice 3</item>
+    </string-array>
+    <string-array name="spinner_Department">
+        <item>Item 1</item>
+        <item>Item 2</item>
+        <item>Item 3</item>
+    </string-array>
+    <string-array name="spinner_Doctor">
+        <item>Item 1</item>
+        <item>Item 2</item>
+        <item>Item 3</item>
+    </string-array>
+    <string-array name="spinner_Time">
+        <item>Item 1</item>
+        <item>Item 2</item>
+        <item>Item 3</item>
+    </string-array>
+
+</resources>
